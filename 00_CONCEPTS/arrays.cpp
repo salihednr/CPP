@@ -14,4 +14,5 @@ int main() {
 5) String And Character Arrays Must Contain Null Character '\0'
 6) Size Is Optional Even Tough Once It is initialised we can't change size it will take size as how many elements it is containing
 7) capacity of int/char/double array = sizeof(array)/sizeof(int)
+8) When we are passing an array we should pass size(capacity) of array as well Because Array inbuilt is pass by referance
 */

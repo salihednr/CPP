@@ -26,12 +26,16 @@ int
 double
 char
 datatype name(paramaters)
-Two Types Of Passing
+Three Types Of Passing
 Pass By Value
-Pass By Referance (&)
+Pass By Referance(only &)
+Pass By Pointer (& and *)
 Array Is By Default Pass By Referance (not array[2]....)
-if variable need not be updated then we can use 
+if variable need not to be updated then we can use 
 const &variable_name so no changes will be permitted
 Using Pass By Referance Not Creating Any Copies So Less Memory Will Be Taken
+Pass By Value = Call By Value
+Pass By Referance = Call By Referance
+Pass By Pointer = Call By Pointer
 
 */

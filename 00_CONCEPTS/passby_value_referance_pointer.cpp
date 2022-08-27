@@ -38,4 +38,10 @@ Pass By Value = Call By Value
 Pass By Referance = Call By Referance
 Pass By Pointer = Call By Pointer
 
+Difference Between Pass By Pointer & Pass By Referance
+Pointer is creating a new variable which stores the address of variable which can be updated 
+creating a new copy which holds the address
+but pass by referance is like alias creating new name 
+https://www.youtube.com/watch?v=7HmCb343xR8
+
 */

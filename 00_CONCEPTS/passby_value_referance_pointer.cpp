@@ -19,21 +19,16 @@ void hello(string &name)
     cout<<name<<endl;
 }
 /*
-Functions Can Be 
-void
-string
-int 
-double
-char
-datatype name(paramaters)
 Three Types Of Passing
-Pass By Value
-Pass By Referance(only &)
-Pass By Pointer (& and *)
-Array Is By Default Pass By Referance (not array[2]....)
+1) Pass By Value
+2) Pass By Referance(only &)
+3) Pass By Pointer (& and *)
+Array Is By Default Pass By Referance (not array[2] which is passing value directly)
+note :- 
 if variable need not to be updated then we can use 
 const &variable_name so no changes will be permitted
-Using Pass By Referance Not Creating Any Copies So Less Memory Will Be Taken
+
+Using Pass By Referance Not Creating Any New Copies It Is Just Like Alias So Less Memory Will Be Taken By In Case Of Pass By Value Or Pointer New Copy Has Created 
 Pass By Value = Call By Value
 Pass By Referance = Call By Referance
 Pass By Pointer = Call By Pointer

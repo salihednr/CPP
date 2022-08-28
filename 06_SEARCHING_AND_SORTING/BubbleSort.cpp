@@ -1,6 +1,7 @@
 /*
 Sorting :- Arranging In The Order Of Increasing/Decreasing Order
 Bubble Sort:- Take Larger Element To The End By Repeatedly Swapping The Adjascent Element
+Arranging In The Increasing Order
 */
 #include<iostream>
 using namespace std;

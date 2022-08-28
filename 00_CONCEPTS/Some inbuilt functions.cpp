@@ -1,8 +1,13 @@
 /*
-Some Inbuilt maths function in c++
-all this comes under in cmath
-so we have to include
-#include<cmath>
+Some Inbuilt functions in c++
+all this comes under in particular header file
+so we have to include tha header file
+here i have listed some of important inbuilt functions
+1) #include<cmath>
+2) #include<iomanip>
+3) #include<cctype>
+4) #include<iostream> // input & output
+5) 
 */
 #include<iostream>
 #include<cmath>

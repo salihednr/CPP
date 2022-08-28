@@ -15,6 +15,7 @@ int main()
     cout<<pow(2,5)<<endl; // taking power like 2^5
     cout<<max(2,5)<<endl; // maximum of two
     cout<<max(max(2,5),9)<<endl; // we can use max((2,5),9) both works in same manner 
+    cout<<abs(a-b); //|a-b| absolute value
     // but better is using max inside max when we wants to calculate more than 2 
     return 0;
 }

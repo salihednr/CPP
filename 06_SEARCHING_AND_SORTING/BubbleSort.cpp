@@ -31,15 +31,8 @@ void bubbleSort(int ar[],int size)
           swap(ar[i],ar[i+1]); //inbuilt keyword to swap
           flag=1;
         }
-        cout<<"Checking"<<endl;
     }
     if(flag==0)
       break;
   }
 }
-/*
-size =5;
-1 2 
-1) 
-
-*/

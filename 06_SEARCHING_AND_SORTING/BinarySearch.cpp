@@ -1,8 +1,9 @@
 /*
 Binary Search Is Optimised Method To Search
-This is dividing /2 upto we get the element 
-It Can Be Used For Sort Arrays Onlye
-Arrays Can Be distinct or non distinct but it must be sorted
+This is dividing /2 upto we get the element if we didn't get the element we will return -1 
+It Can Be Used Only For Sorted Arrays
+Arrays Can Be distinct or non distinct but it must be sorted that is the only condition but incase of 
+Linear Search Arrays Need Not To Be Sorted
 Time Complexity : - O(logn)
 Space Complexity : - O(1) (Same As Linear Search)
 */
@@ -18,10 +19,9 @@ int main()
   cin>>key;
   for(int i=0;i<n;i++)
     cin>>array[i];
-  int size=sizeof(array)/sizeof(int);
-  int in=binarySearch(array,size,key);
+  int index=binarySearch(array,n,key);
   //comparing whether we get index or not
-  if(in!=-1)
+  if(index!=-1)
   {
     cout<<key<<" Is Found At "<<in<<" Index";
   }
@@ -38,7 +38,7 @@ int binarySearch(int ar[],int size,int key)
     int e=size-1;//end
     while(s<=e)
     {
-      mid=((e+s)/2);
+      mid=(e+s)/2;
       if(key==ar[mid])
       return mid;
       else if(key<ar[mid])

@@ -9,28 +9,26 @@ int main()
   int n;
   cin>>n;
   int ar[n];
+  //inputting array
   for(int i=0;i<n;i++)
   cin>>ar[i];
+  //calling selectionsort
   selectionSort(ar,n);
+  //printing array
   for(int i=0;i<n;i++)
   cout<<ar[i]<<" ";
   return 0;
 }
-void selectionSort(int ar[],int size)
+void selectionSort(int ar[],int n)
 {
-  for(int times=1;times<=size-1;times++)
+  for(int pos=0;pos<n-1;pos++)
   {
-    int flag=0;
-    //This Loop(Second for loop) Will Work C(N,2) Times without using break and flag using flag will help us to stop loops if array is already sorted reduce steps;
-    for(int i=0;i<=size-times-1;i++)
+    int min_position=pos;
+    for(int j=pos+1;j<n;j++)
     {
-        if(ar[i]>ar[i+1])
-        {
-          swap(ar[i],ar[i+1]); //inbuilt keyword to swap
-          flag=1;
-        }
+      if(ar[min_position]>ar[j])
+      min_position=j;
     }
-    if(flag==0)
-      break;
+    swap(ar[pos],ar[min_position]);
   }
 }

@@ -9,6 +9,7 @@ void ar(int n,int i)
 {
     static int numbers[3];
     numbers[i]=n;
+    // this will check array is completed so we can print
     if(i==(len-1))
     {
         for(int i=0;i<len;i++)

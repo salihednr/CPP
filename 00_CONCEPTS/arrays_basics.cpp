@@ -18,5 +18,6 @@ int main() {
 9) array[i] this is not pass by referance this is just similar to passing the elements
 10) If a[] is an array then cout<<a and cout<<&a will only print same memory location by default (printing with just variable name without[]) it will print it's
 memory location only
+Array Is Like Constant Pointer
 11) arrayCall(ar) -> arrayCall(int ar) which is equivalent to arrayCall(&ar) -> arrayCall(int *ar)
 */

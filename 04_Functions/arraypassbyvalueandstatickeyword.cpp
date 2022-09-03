@@ -1,6 +1,6 @@
 /*
 Passing Array Via Pass By Value Using Static Keyword
-Size Is Know Then Only Possible
+Size Must Be Given Then Only Possible
 */
 #include<iostream>
 using namespace std;

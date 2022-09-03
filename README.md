@@ -1,4 +1,4 @@
-# Basics Of Programming Language And Object Oriented Programming
+# Basics Of Programming Languages And Object Oriented Programming Using C++
 <br>
 <h1><b> Sections<b></h1>
   <h3><a href="https://github.com/salihednr/CPP/tree/main/BASICS_OPERATORS_DATATYPE">1) Basics, Operators, Datatypes</a><h3>

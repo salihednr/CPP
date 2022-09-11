@@ -11,6 +11,7 @@ here i have listed some of important inbuilt functions
 */
 #include<iostream>
 #include<cmath>
+#include<cstring>
 using namespace std;
 int main()
 {
@@ -24,3 +25,15 @@ int main()
     // but better is using max inside max when we wants to calculate more than 2 
     return 0;
 }
+/*
+All These Come Under 
+#include<cstring>
+1) strlen():-Length of String
+It Is Used To Print The Length Of Character Array/String It will avoid \0
+2) strcpy(str2, str1)
+char str1[20] = "C programming";
+char str2[20];
+It is used top copy character array of str1 to str2
+3) strcomp():- To Compare Two Strings
+if string equals then return 0 else non zero
+*/

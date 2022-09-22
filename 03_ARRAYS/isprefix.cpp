@@ -7,6 +7,7 @@ ABCD AB =>YES
 ABCD A =>YES
 ABCD ABCD=>YES
 ABCD ACD =>NO
+ABCD CD =>NO
 */
 #include<iostream>
 using namespace std;

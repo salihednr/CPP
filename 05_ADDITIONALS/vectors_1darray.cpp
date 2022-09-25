@@ -5,6 +5,7 @@ STL:- Standard Template Library
 Just Like Arrays Vectors Use Contigous Storage Locations
 Unlike Arrays Their Size Can Change Dynamically, With Thier
 Storage Being Handled Automatically By The Container 
+Vectors Like Dynamic Array
 When Vector Exceeds It's Size New Array Would Be Created With The Size Of 2x
 And Copy All The Elements And Old Array Will Be Deleted
 */

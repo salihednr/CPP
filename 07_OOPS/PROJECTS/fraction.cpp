@@ -19,7 +19,7 @@ class fraction{
         (*this).den=den;
     }
     //Addition
-    void add(fraction f1,fraction f2)
+    void add(fraction const &f1,fraction const &f2)
     {
         int numerator=(f1.num*f2.den)+(f2.num*f1.den);
         int denominator=(f1.den)*(f2.den);

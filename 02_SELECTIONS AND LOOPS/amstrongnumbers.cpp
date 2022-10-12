@@ -11,7 +11,9 @@ All One Digit Numbers Are Amstrong
 
 */
 
-/* #include<iostream>
+/* 
+3 Digit Number
+#include<iostream>
 using namespace std;
 int amstrong(int am);
 int main()

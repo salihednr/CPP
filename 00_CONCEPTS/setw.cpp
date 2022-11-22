@@ -1,4 +1,9 @@
-/*It Helps To Build Width In Text*/
+/*It Helps To Build Width In Text
+Right To Left
+cout<<"Salih"<<setw(10)<<"Edneer";
+salih    Edneer
+     ----------(width is 10)
+*/
 #include <iostream>
 #include<cstring>
 #include<iomanip>

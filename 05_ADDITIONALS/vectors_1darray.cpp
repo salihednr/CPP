@@ -26,14 +26,15 @@ int main()
   array.push_back(16);
   cout<<array.size()<<endl<<array.capacity()<<endl;
   for(int i=0;i<array.size();i++)
-  cout<<array[i]<<" ";
+    cout<<array[i]<<" ";
   cout<<endl;
   //Pop Back Will Remove The Last Element
   array.pop_back();
   cout<<array.size()<<endl;
   cout<<array.capacity()<<endl;
+  //Printing Of The Array
   for(int i=0;i<array.size();i++)
-  cout<<array[i]<<" ";
+    cout<<array[i]<<" ";
   cout<<endl;
   //Fill Contructor:- Fill All The ELements Same
   vector<int> ar(20,0);
